@@ -30,7 +30,7 @@ export const FooterComponent = () => {
       </Container>
       <div className="text-center p-3 pb-5">
         <div class="view-resume">
-            <a class="view-resume__link" href="https://drive.google.com/file/d/1m_JSx_2XDnEaePOk4mYuMbje-iZpkcDv/view?usp=share_link"><span class="view">Resume</span></a>    
+          <a class="view-resume__link" href="https://drive.google.com/file/d/1uaou6-1UWTr6Hkyk7gE3fAQg1S4Yb0Fu/view?usp=sharing"><span class="view">Resume</span></a>    
         </div>
       </div>
     </footer>

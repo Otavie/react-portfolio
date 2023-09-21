@@ -10,7 +10,7 @@ export const ContactPage = () => {
       </div>
       <Container>
           <Row className="justify-content-center">
-              Contact
+              Work in Progress
           </Row>
       </Container>
     </div>
