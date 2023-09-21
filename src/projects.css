@@ -35,7 +35,6 @@
 
 .view-more-btn {
   font-size: 1.15rem !important;
-  font-family: var(--btn-oxanium) !important;
   font-weight: 500 !important;
   background-color: black;
   border: 0.5px solid white !important;
@@ -55,7 +54,6 @@
 
 .project > .h2-head h2 {
   color: white;
-  font-family: var(--h2-bad-script);
   text-align: center;
   font-size: 2rem;
   padding: 0 10px;
@@ -104,7 +102,6 @@
 }
 
 .project-used {
-  font-family: var(--btn-oxanium);
   font-weight: 600;
   font-size: 1.075rem;
 }
@@ -118,7 +115,6 @@
 .key-features h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: var(--h2-bad-script);
   margin: 1.5rem 0;
   color: #FFF;
 }
@@ -173,7 +169,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--h2-bad-script);
 }
 
 .back {

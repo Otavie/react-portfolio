@@ -56,14 +56,12 @@
 }
 
 .h1-head h1 {
-  font-family: var(--h1-orbitron);
   font-size: 3rem;
   text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.85), 1px 2px 5px white;
   color: black;
 }
 
 .h2-head h2 {
-  font-family: var(--h2-bad-script);
   color: var(--white-color);
   font-weight: 600;
   font-size: 2.75rem;
@@ -72,7 +70,6 @@
 .h2-head h3 {
   font-size: 1.75rem;
   color: var(--white-color);
-  font-family: var(--h2-bad-script);
   font-weight: 700;
 }
 
@@ -81,22 +78,17 @@
 }
 
 .link-name {
-  font-family: var(--h2-bad-script);
   font-weight: 500;
   font-size: 1rem;
   color: var(--white-color);
-  transition: transform 0.75s ease-in-out;
-  transform: scale(1);
+  transition: color 0.75s ease-in-out;
 }
 
 .link-name:hover {
   color: #cfcfcf;
-  transform: scale(1.05);
-  font-weight: bold;
 }
 
 .view-resume {
-  font-family: var(--btn-oxanium);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,7 +115,7 @@
     min-height: 40vh;
   }
   .h1-head h1 {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
   .h2-head h2 {
     font-size: 3rem;

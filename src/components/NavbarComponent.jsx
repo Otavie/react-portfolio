@@ -6,8 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const NavbarComponent = () => {
   return (
-    // <Navbar expand="lg" className="fixed-top py-3" style={{background: '#01579b', fontFamily: "'Poppins', sans-serif"}}>
-    // <Navbar expand="lg" className="otavie-header fixed-top py-3" style={{background: "rgb(0, 0, 0)", fontFamily: "'Oxanium', cursive"}}>
     <Navbar expand="lg" className="otavie-header fixed-top py-3" style={{background: "rgb(0, 0, 0)" }}>
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center">
@@ -18,9 +16,8 @@ export const NavbarComponent = () => {
             height="37.842951750237" //Aspect Ratio is 300 by 221.97
             className="mx-2"
           />
-          <span style={{color: '#FFF', fontFamily: "'Orbitron', sans-serif", fontWeight: '600', fontSize: '1.5rem'}}>&lt;Otavie /&gt;</span>
+          <span style={{color: '#FFF', fontWeight: '600', fontSize: '1.5rem'}}>&lt;Otavie /&gt;</span>
         </Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="my-3 px-2" style={{paddingTop: '0.35rem', paddingBottom: '0.35rem'}} /> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="my-2 px-2" style={{paddingTop: '0.35rem', paddingBottom: '0.35rem'}} />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center justify-content-lg-end">
           <Nav className="ml-auto">
