@@ -1,0 +1,137 @@
+:root {
+  --h1-orbitron: 'Orbitron', sans-serif;
+  --h2-bad-script: 'Bad Script', cursive;
+  --primary-bg-color: rgb(0, 0, 0);
+  --white-color: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collapsed {
+  border: none !important;
+}
+
+.navbar-toggler {
+  border: 1px solid #FFF !important;
+  border-radius: 5px !important;
+  background-color: #FFF !important;
+  box-shadow: none !important;
+}
+
+.img-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-line-logo {
+  width: 100%;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.timeline-date {
+  color: var(--white-color);
+}
+
+.pipes {
+  color: var(--white-color);
+}
+
+.h1-head {
+  min-height: 30vh;
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-bg-color);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-head h1 {
+  font-family: var(--h1-orbitron);
+  font-size: 3rem;
+  text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.85), 1px 2px 5px white;
+  color: black;
+}
+
+.h2-head h2 {
+  font-family: var(--h2-bad-script);
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 2.75rem;
+}
+
+.h2-head h3 {
+  font-size: 1.75rem;
+  color: var(--white-color);
+  font-family: var(--h2-bad-script);
+  font-weight: 700;
+}
+
+.otavie-header {
+  box-shadow: 0px -5px 10px white;
+}
+
+.link-name {
+  font-family: var(--h2-bad-script);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--white-color);
+  transition: transform 0.75s ease-in-out;
+  transform: scale(1);
+}
+
+.link-name:hover {
+  color: #cfcfcf;
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+.view-resume {
+  font-family: var(--btn-oxanium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-resume a {
+  text-decoration: none;
+  padding: 0px 25px 9px;
+  border-radius: 7.5px;
+  border-bottom: 1px solid var(--text-light);
+  color: var(--text-light);
+  transition: border 750ms ease-in-out, color 750ms ease-in-out;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.view-resume a:hover {
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+}
+
+@media only screen and (min-width: 700px) {
+  .h1-head {
+    min-height: 40vh;
+  }
+  .h1-head h1 {
+    font-size: 4.5rem;
+  }
+  .h2-head h2 {
+    font-size: 3rem;
+  }
+  .h2-head h3 {
+    font-size: 2rem;
+  }
+  .link-name {
+    font-size: 1.05rem;
+  }
+}

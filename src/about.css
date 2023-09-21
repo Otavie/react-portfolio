@@ -1,0 +1,19 @@
+:root {
+  --text-light: rgb(214, 213, 213);
+}
+
+.paragraph {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #afafaf;
+}
+
+.otavie-skills {
+  color: var(--text-light);
+  font-weight: 500;
+  font-family: var(--btn-oxanium);
+}
+
+.animate-slow {
+  transition-duration: 10s;
+}
