@@ -1,6 +1,6 @@
 .home {
   color: var(--text-light);
-  min-height: calc(100vh - 90px - 187px);
+  min-height: calc(100vh - 90px - 199px);
   background-color: #000;
   width: 100%;
   display: flex;
