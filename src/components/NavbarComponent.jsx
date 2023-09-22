@@ -16,7 +16,7 @@ export const NavbarComponent = () => {
             height="37.842951750237" //Aspect Ratio is 300 by 221.97
             className="mx-2"
           />
-          <span style={{color: '#FFF', fontWeight: '600', fontSize: '1.5rem'}}>&lt;Otavie /&gt;</span>
+          <span style={{color: '#FFF', fontWeight: '600', fontSize: '2.5rem'}}>&lt;Otavie /&gt;</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="my-2 px-2" style={{paddingTop: '0.35rem', paddingBottom: '0.35rem'}} />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center justify-content-lg-end">

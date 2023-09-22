@@ -8,7 +8,7 @@ export const ProjectsPage = () => {
   return (
     <div className="pb-5" style={{ marginTop: '80px', backgroundColor: 'rgb(0, 0, 0)' }}>
       <div className="h1-head">
-        <h1 className="animate__animated animate__fadeInRight">Projects</h1>
+        <h1 className="animate__animated animate__fadeInDown">Projects</h1>
       </div>
       <Container>
           <Row className="justify-content-center">

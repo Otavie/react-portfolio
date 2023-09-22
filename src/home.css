@@ -23,7 +23,7 @@ a.explore-btn {
   background-color: #000;
   border: 1px solid #FFF;
   color: #FFF;
-  transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out, border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition: background-color 1s ease-in-out, border 1s ease-in-out, border-radius 1s ease-in-out, transform 1s ease-in-out;
   border-radius: 10px;
   opacity: 1;
   transform: scale(1);
@@ -152,23 +152,6 @@ a.explore-btn {
   }
 }
 
-.fade-in-up-portfolio-site {
-  animation: fade-in-up 1.25s linear;
-}
-
-.fade-in-up-student-photocard-collection {
-  animation: none;
-}
-
-@keyframes fade-in-up {
-  0% {
-    transform: translateY(50%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
 @media only screen and (min-width: 700px) {
   .home-image-container {
     width: 70%;
@@ -176,11 +159,5 @@ a.explore-btn {
   .home-image-container img {
     height: 65px;
     padding: 10px;
-  }
-  .fade-in-up-portfolio-site {
-    animation: fade-in-up 1.25s linear;
-  }
-  .fade-in-up-student-photocard-collection {
-    animation: fade-in-up 1.25s linear;
   }
 }

@@ -21,12 +21,12 @@ export const ProjectDetailsPage = () => {
     <div className="pb-5" style={{ marginTop: '80px', backgroundColor: 'rgb(0, 0, 0)' }}>
         <div className="project container">
             <div className="h2-head">
-                <h2>{ project.title }</h2>
+                <h2 className="animate__animated animate__fadeInDown">{ project.title }</h2>
             </div>
 
             <Nav.Link className="back" href="/projects">Back</Nav.Link>
 
-            <Row className="justify-content-center align-items-center">
+            <Row className="justify-content-center align-items-center animate__animated animate__fadeInUp">
                 <Col lg={6} sm={12} className="my-4 px-4">
                     <div className="projects-item-contents-img">
                         <div className="projects-item-content-img-container">

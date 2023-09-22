@@ -5,9 +5,9 @@ export const BioComponent = () => {
   return (
     <div className="text-center text-white" style={{ marginTop: '80px' }}>
         <div className="h1-head px-3">
-          <h1 className="animate__animated animate__fadeInRight">About Otavie</h1>
+          <h1 className="animate__animated animate__fadeInDown">About Otavie</h1>
         </div>
-        <div className="container px-3 h2-head">
+        <div className="container container-paragraph px-3 h2-head">
           <h3 className="pb-3 mt-3">The World of a Full Stack Engineer</h3>
           <p className="paragraph">
               Hi there! I'm Otavie. I specialize in creating seamless user experiences by integrating 

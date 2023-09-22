@@ -110,6 +110,7 @@
   color: var(--text-light);
   text-align: center;
   margin-top: 5rem;
+  overflow-y: hidden;
 }
 
 .key-features h3 {
@@ -121,10 +122,17 @@
 
 .key-features h4 {
   font-size: 1.25rem;
+  overflow-y: hidden;
 }
 
 .key-features p {
   font-size: 1.05rem;
+  overflow-y: hidden;
+}
+
+.key-features-title,
+.key-features-notes {
+  overflow-y: hidden;
 }
 
 .projects-item-content-img-mobile {
@@ -179,6 +187,24 @@
   padding: 10px 20px !important;
 }
 
+.fade-in-up-portfolio-site,
+.container-paragraph {
+  animation: fade-in-up 0.9s linear;
+}
+
+.fade-in-up-student-photocard-collection {
+  animation: none;
+}
+
+@keyframes fade-in-up {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .project > .h2-head h2 {
     font-size: 3rem;
@@ -186,5 +212,11 @@
   }
   .back {
     top: 150px;
+  }
+  .fade-in-up-portfolio-site {
+    animation: fade-in-up 1.25s linear;
+  }
+  .fade-in-up-student-photocard-collection {
+    animation: fade-in-up 1.25s linear;
   }
 }

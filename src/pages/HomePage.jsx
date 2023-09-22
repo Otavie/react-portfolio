@@ -12,15 +12,15 @@ import node from '../assets/img/nodejs.png';
 export const HomePage = () => {
   return (
     <div className="home-container">
-      <style className="home" style={{ marginTop: '80px' }}>
+      <div className="home" style={{ marginTop: '80px' }}>
         <div className="h1-head home-head">
-          <h1 className="text-center animate__animated animate__fadeInLeft">Otavie's World!</h1>
-          <h3 className="px-3 text-center">the world of a full stack engineer</h3>
+          <h1 className="text-center px-3 animate__animated animate__fadeInDown">Otavie's World!</h1>
+          <h3 className="px-5 text-center fst-italic animate__animated animate__fadeInUp">the world of a full stack engineer</h3>
         </div>
         <Container className="explore-btn-container">
           <Nav.Link className="explore-btn animate__animated animate__zoomIn" href="/projects">Explore my projects</Nav.Link>
         </Container>
-      </style>
+      </div>
 
       <div className="home-image-container">
         <img className="javascript bouncing-skill bouncing-skill-javascript" src={ javascript } alt="React" />
@@ -30,7 +30,7 @@ export const HomePage = () => {
         <img className="vue bouncing-skill bouncing-skill-vue" src={ vue } alt="Vue" />
         <img className="node bouncing-skill bouncing-skill-node" src={ node } alt="Node" />
       </div>
-
+      
     </div>
   )
 }
