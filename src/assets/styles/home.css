@@ -1,0 +1,160 @@
+.home {
+  color: var(--text-light);
+  min-height: calc(100vh - 90px - 199px);
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.explore-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a.explore-btn {
+  padding: 20px;
+  width: 400xp;
+  font-size: 1.5rem;
+  background-color: #000;
+  border: 1px solid #FFF;
+  color: #FFF;
+  transition: background-color 1s ease-in-out, border 1s ease-in-out, border-radius 1s ease-in-out, transform 1s ease-in-out;
+  border-radius: 10px;
+  opacity: 1;
+  transform: scale(1);
+}
+
+a.explore-btn:hover {
+  background-color: #272727;
+  border-radius: 0px;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+a.explore-btn {
+  animation: zoomIn;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+}
+
+.home-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.home-image-container {
+  position: absolute;
+  z-index: 33;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  align-items: center;
+}
+.home-image-container img {
+  height: 50px;
+  bottom: -50px;
+  z-index: 22;
+  padding: 10px;
+}
+
+.javascript {
+  left: 0;
+}
+
+.git {
+  left: 10%;
+}
+
+.react {
+  left: 20%;
+}
+
+.python {
+  left: 30%;
+}
+
+.vue {
+  left: 40%;
+}
+
+.node {
+  left: 50%;
+}
+
+.bouncing-skill {
+  opacity: 0;
+  animation: fade-in-out 5000ms ease-in-out;
+}
+
+.bouncing-skill-javascript {
+  animation-delay: 0.5s;
+  animation-delay: 0s;
+}
+
+.bouncing-skill-react {
+  animation-delay: 0.5s;
+}
+
+.bouncing-skill-git {
+  animation-delay: 1s;
+}
+
+.bouncing-skill-python {
+  animation-delay: 1.5s;
+}
+
+.bouncing-skill-vue {
+  animation-delay: 2s;
+}
+
+.bouncing-skill-node {
+  animation-delay: 2.5s;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 1;
+    transform: translateY(150%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-400%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(150%);
+  }
+}
+@media only screen and (min-width: 700px) {
+  .home-image-container {
+    width: 70%;
+  }
+  .home-image-container img {
+    height: 65px;
+    padding: 10px;
+  }
+}

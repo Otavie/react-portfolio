@@ -29,7 +29,7 @@ export const FooterComponent = () => {
       </Container>
       <div className="text-center p-3 pb-5">
         <div class="view-resume">
-          <a class="view-resume__link" href="https://drive.google.com/file/d/1R4AfIfm1NXsWX951sYa_xejoLmij3yAN/view?usp=sharing" target='_blank' rel='noreferrer'><span class="view">Resume</span></a>    
+          <a class="view-resume__link" href="https://www.canva.com/design/DAGrFa3LliI/J07gLDCe2bhcmu4TyNbqFQ/view?utm_content=DAGrFa3LliI" target='_blank' rel='noreferrer'><span class="view">Resume</span></a>    
         </div>
       </div>
     </footer>
